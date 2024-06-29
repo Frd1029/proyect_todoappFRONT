@@ -1,6 +1,6 @@
 // components/Button/index.jsx
 import React from 'react';
-import './Buttom.css';
+import './Button.css';
 
 const Button = ({ children }) => {
     return (
