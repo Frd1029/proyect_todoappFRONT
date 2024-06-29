@@ -1,12 +1,13 @@
-
-
 .header{
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center; /* Centra verticalmente los elementos */
     background-color: #fef4e8;
-    text-align: center;
+    padding: 0px 30px 20px 10px; /* Agrega un padding al header */
 }
 
 .header img {
-    align-items: center;
-    max-width: 15%;
+    align-items: flex-start;
+    width: 15%;
 }
