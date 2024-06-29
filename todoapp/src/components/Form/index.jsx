@@ -24,7 +24,7 @@ const Form = ({ registrarUsuario }) => {
     return (
         <section className="formulario">
             <form onSubmit={manejarEnvio}>
-                <h2>Rellena el formulario con tus datos.</h2>
+                <h2>Registra tus datos.</h2>
                 <TextField
                     titulo="Nombres"
                     placeholder="Ingresar nombres"
@@ -53,7 +53,7 @@ const Form = ({ registrarUsuario }) => {
                     valor={celular}
                     actualizarValor={actualizarCelular}
                 />
-                <Button>Enviar</Button>
+                <Button>Registrate</Button>
             </form>
         </section>
     );
