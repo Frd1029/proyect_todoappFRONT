@@ -1,9 +1,21 @@
-import './App.css'
+// App.jsx
+import React from 'react';
+import './App.css';
+import Form from './components/Form/index.jsx';
+import Header from './components/Header/index.jsx';
 
 function App() {
-  return <div className='App'>
-    <h1>Hola Freddy</h1>
-  </div>
+    const registrarUsuario = (datos) => {
+        console.log('Datos recibidos:', datos);
+    };
+
+    return (
+        <div>
+            <Header />
+
+            <Form registrarUsuario={registrarUsuario} />
+        </div>
+    );
 }
 
-export default App
+export default App;

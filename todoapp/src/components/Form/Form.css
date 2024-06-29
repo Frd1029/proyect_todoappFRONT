@@ -1,0 +1,15 @@
+/* components/Form/Form.css */
+.formulario {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}

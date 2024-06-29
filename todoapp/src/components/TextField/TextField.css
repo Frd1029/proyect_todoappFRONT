@@ -1,0 +1,20 @@
+/* components/TextField/TextField.css */
+.text-field {
+    margin-bottom: 15px;
+}
+
+.text-field label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.text-field input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}

@@ -1,0 +1,12 @@
+
+
+.header{
+    width: 100%;
+    background-color: #fef4e8;
+    text-align: center;
+}
+
+.header img {
+    align-items: center;
+    max-width: 15%;
+}
