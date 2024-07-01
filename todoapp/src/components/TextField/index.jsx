@@ -2,16 +2,24 @@
 import React from 'react';
 import './TextField.css';
 
-const TextField = ({ titulo, placeholder, required, valor, actualizarValor }) => {
+//{ title, placeholder, required, valor, updateValue }
+
+const TextField = (props) => {
+    const placeholderModified = `${props.placeholder}`
+
+    const handleChange = (e) => {
+        props.updateValue(e.target.value);
+    }
+
     return (
         <div className="text-field">
-            <label>{titulo}</label>
+            <label>{props.title}</label>
             <input
                 type="text"
-                placeholder={placeholder}
-                required={required}
-                value={valor}
-                onChange={(e) => actualizarValor(e.target.value)}
+                placeholder={placeholderModified}
+                required={props.required}
+                value={props.value}
+                onChange={handleChange}
             />
         </div>
     );
