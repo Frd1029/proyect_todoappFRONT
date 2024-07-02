@@ -1,0 +1,12 @@
+/* index.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Asegúrate de que los elementos principales no tengan margen o padding */
+.App {
+    margin: 0;
+    padding: 0;
+}
